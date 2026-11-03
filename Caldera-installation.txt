@@ -1,0 +1,24 @@
+git clone https://github.com/mitre/caldera.git --recursive
+cd caldera
+pip3 install -r requirements.txt
+python3 server.py --insecure --build
+
+Step 1: Downloading the Go Lang 1.19.13
+
+Download Go Lang version 1.19.13 from the provided URL, following our step-by-step guide for smooth installation on Ubuntu 23.04. And then upload the same in your ubuntu server.
+Run 
+  
+    
+https://go.dev/dl/go1.19.13.linux-amd64.tar.gz
+Step 2: Execute the below command to unzip the tar file
+Run 
+  
+    
+sudo tar -C /usr/local -xzf go1.19.13.linux-amd64.tar.gz
+Step 3: Execute the below export command
+Run 
+  
+    
+export PATH=$PATH:/usr/local/go/bin
+
+In conclusion, we have provided you with comprehensive steps to download and install Go Lang version 1.19.13 on your Ubuntu 23.04 system. By following our detailed guide, you have gained the knowledge and confidence to set up this powerful programming language effortlessly. Now equipped with Go Lang, you can embark on your coding journey, exploring its vast capabilities and building innovative applications. Remember, mastering Go Lang opens doors to a world of efficient and concurrent programming, allowing you to bring your ideas to life seamlessly. Happy coding!
